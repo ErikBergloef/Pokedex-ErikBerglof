@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+}
+
+.App-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.StartButton {
+  font-size: 15px;
+  height: 40px;
+  width: auto;
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.Title {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.DropDownMenu {
+  font-size: 18px;
+  margin: 10px;
+}
+.DropDownMenu select {
+  font-size: 16px;
+}
+.DropDownMenu button {
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 4px;
+}
+
+.PokemonData {
+  color: rgb(0, 0, 0);
+  border: 4px rgb(0, 0, 0) solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  background-image: url("/images/BackgroundImg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.PokemonName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.PokemonDetails img {
+  display: block;
+  margin: 6px;
+  height: auto;
+  width: 200px;
+  border: 4px rgb(0, 0, 0) solid;
+  background-color: rgb(225, 219, 218);
+  border-radius: 8px;
+}
+
+.Types {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.Weight {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.Length {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.PokemonDetails p {
+  font-size: 15px;
+  margin: 2px;
+  margin-left: 15px;
+}
